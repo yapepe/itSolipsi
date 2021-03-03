@@ -1,0 +1,23 @@
+.inicio {
+    background-color: orchid;
+    width: 100vw;
+    height: 100vh;
+
+    .inicio__imagen {
+        width: 60%;
+        height: calc((55vw * 9) / 16);
+        top: 25%;
+        right: 15%;
+        position: absolute;
+        background-color:orange;
+    }
+
+    .inicio__info {
+        width: 30%;
+        height: calc((30vw * 3) / 4);
+        top: 30%;
+        left: 15%;
+        position: absolute;
+        background-color: springgreen;
+    }
+}

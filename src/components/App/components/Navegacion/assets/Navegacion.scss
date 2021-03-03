@@ -1,0 +1,37 @@
+.nav {
+    background-color: white;
+    width: 100vw;
+    height: 150px;
+    top:60%;
+    position: absolute;
+    z-index: 1;
+
+    .nav__logo {
+        position: relative;
+        display: flex;
+        justify-content:center;
+        top: 15%;
+    }
+
+    .nav__links {
+        font-size: 1.5rem;
+        position: relative;
+        color:slateblue;
+        top: 20%;
+        display: flex;
+        justify-content:center;
+        text-indent: 80px;
+
+        .nav__links__link {
+
+            &:hover {
+                color: darksalmon;
+                cursor: pointer;
+            }
+
+            &:active {
+                color: darksalmon;
+            }
+        }
+    }
+}
