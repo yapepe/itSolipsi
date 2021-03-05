@@ -1,0 +1,25 @@
+.info {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.info .info__imagen {
+  width: 60%;
+  height: calc((55vw * 9) / 16);
+  top: 25%;
+  left: 15%;
+  position: absolute;
+  background-color: firebrick;
+}
+
+.info .info__info {
+  width: 30%;
+  height: calc((30vw * 3) / 4);
+  top: 30%;
+  right: 15%;
+  position: absolute;
+  background-color: springgreen;
+}
+/*# sourceMappingURL=Info.css.map */
