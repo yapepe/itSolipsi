@@ -1,0 +1,27 @@
+.info {
+    width: 100vw;
+    position: relative;
+    background-color: springgreen;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .info__imagen {
+        width: 60%;
+        height: calc((55vw * 9) / 16);
+        top: 25%;
+        left: 15%;
+        position: relative;
+        display: inline-block;
+        background-color:firebrick;
+    }
+
+    .info__info {
+        width: 30%;
+        height: calc((30vw * 3) / 4);
+        top: -5vh;
+        right: 10%;
+        position: relative;
+        display: inline-block;
+        background-color:teal;
+    }
+}

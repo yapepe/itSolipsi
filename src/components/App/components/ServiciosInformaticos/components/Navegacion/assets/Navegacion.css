@@ -1,0 +1,36 @@
+.nav {
+  background-color: white;
+  width: 100vw;
+  top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1;
+}
+
+.nav .nav__logo {
+  position: relative;
+  left: 10%;
+}
+
+.nav .nav__links {
+  position: relative;
+  font-size: 1.2rem;
+  color: slateblue;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  left: 30%;
+  text-indent: 30px;
+}
+
+.nav .nav__links .nav__links__link:hover {
+  color: darksalmon;
+  cursor: pointer;
+}
+
+.nav .nav__links .nav__links__link:active {
+  color: darksalmon;
+}
+/*# sourceMappingURL=Navegacion.css.map */

@@ -1,16 +1,10 @@
 import './assets/App.css'
-import Navegacion from './components/Navegacion/Navegacion'
-import Inicio from './components/Inicio/Inicio'
-import Info from './components/Info/Info'
-
-
+import ServiciosInformaticos from './components/ServiciosInformaticos/ServiciosInformaticos'
 
 export default function App() {
   return (
     <div className="App">
-      <Navegacion/>
-      <Inicio/>
-      <Info/>
+      <ServiciosInformaticos/>
     </div>
   )
 }

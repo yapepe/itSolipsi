@@ -1,0 +1,28 @@
+.contacto {
+    background-color:darkkhaki;
+    width: 100vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    .contacto__contenido { 
+        top: 20%;
+        position: relative;
+        margin: 10%;
+        border: 25%;
+        border-radius: 10%;
+        padding: 10%;
+        border-inline-style: solid; 
+        background-color:darksalmon;
+        color: gold;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contacto-web {
+        background-color:darkorange;
+        text-align: center;
+        position: relative;
+    
+    
+    }    
+}

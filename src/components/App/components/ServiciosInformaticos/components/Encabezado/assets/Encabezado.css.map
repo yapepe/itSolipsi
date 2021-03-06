@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAC;EACR,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,UAAU;EACjB,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,KAAK;EACZ,SAAS,EAAE,IAAI;CAKlB;;AAVD,AAOI,WAPO,CAOP,EAAE,CAAC;EACC,UAAU,EAAE,GAAG;CAClB",
+    "sources": [
+        "Encabezado.scss"
+    ],
+    "names": [],
+    "file": "Encabezado.css"
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,sBAAsB,CAAC;EACf,gBAAgB,EAAE,KAAK;EACvB,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,KAAK;EACZ,UAAU,EAAE,MAAM;CACzB",
+    "sources": [
+        "ServiciosInformaticos.scss"
+    ],
+    "names": [],
+    "file": "ServiciosInformaticos.css"
+}
