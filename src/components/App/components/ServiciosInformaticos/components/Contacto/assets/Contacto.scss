@@ -19,10 +19,17 @@
     }
 
     .contacto-web {
-        background-color:darkorange;
         text-align: center;
         position: relative;
     
+    }   
     
-    }    
+    .contacto-web__formulario--chico {
+        margin-top: 5%;
+    }
+
+    .contacto-web__formulario--grande {
+        margin-top: 5%;
+        padding-bottom: 5%;
+    }
 }

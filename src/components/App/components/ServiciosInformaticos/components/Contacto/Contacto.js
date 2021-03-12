@@ -7,7 +7,7 @@ export default function Contacto() {
     const [ email, setEmail ] = useState(' ')
     const [ telefono, setTelefono ] = useState(' ')
     const [ mensaje, setMensaje ] = useState(' ')
-    const asunto = 'CONTACTO WEB'
+    const asunto = 'CONTACTO IT'
     const url = 'https://solipsi-landing-server.herokuapp.com/contacto'
   
     const enviarMail = () => {
@@ -56,12 +56,10 @@ export default function Contacto() {
                         onChange = { (event) =>  setTelefono(event.target.value)  }
                         //meter REQUERIDO
                         />
-                    </Form.Group>
-                        <Form.Group as={Col} controlId="exampleForm.ControlTextarea1">
-                        <Form.Control as="textarea" rows={5} placeholder="Mensaje" className="contacto-web__formulario--grande" 
+                        <Form.Control as="textarea"  placeholder="Mensaje" className="contacto-web__formulario--grande" 
                         onChange = { (event) => setMensaje(event.target.value) }
                         />
-                        </Form.Group>
+                    </Form.Group>
                     </Form.Row>
                     <br />
                     <Button variant="dark" onClick={ () => enviarMail() } >
