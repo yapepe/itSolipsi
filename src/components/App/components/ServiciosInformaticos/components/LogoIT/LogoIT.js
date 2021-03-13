@@ -5,9 +5,7 @@ export default function LogoIT() {
             <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
             width="1019.000000pt" height="1090.000000pt" viewBox="0 0 1019.000000 1090.000000"
             preserveAspectRatio="xMidYMid meet" className="LogoIT">
-            <metadata>
-            Created by potrace 1.16, written by Peter Selinger 2001-2019
-            </metadata>
+            
             <g transform="translate(0.000000,1090.000000) scale(0.100000,-0.100000)"
             fill="currentcolor" stroke="none">
             <path d="M4230 10889 c-539 -43 -736 -73 -1008 -155 -374 -113 -653 -272
