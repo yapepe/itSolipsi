@@ -21,7 +21,6 @@ export default function Navegacion() {
   }, [] )
 
   const abrirDesplegable = () => {
-    console.log('abierto');
     refCerrado.current.classList.add('nav__cerrar--despues')
     refDesplegable.current.classList.toggle('nav__links--desplegable')
     

@@ -76,7 +76,6 @@
 .nav .nav__links--desplegable {
   display: block !important;
   background-color: chartreuse;
-  position: fixed;
   top: 0%;
   left: 50%;
   width: 100vw;
@@ -93,13 +92,14 @@
 }
 
 .nav .nav__cerrar {
+  top: -100vh;
   width: 100vw;
-  height: 100vh;
+  height: 200vh;
+  position: absolute;
   display: none;
 }
 
 .nav .nav__cerrar--despues {
-  background-color: none;
   display: block;
 }
 /*# sourceMappingURL=Navegacion.css.map */
